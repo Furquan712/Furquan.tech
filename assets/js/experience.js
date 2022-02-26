@@ -106,10 +106,10 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "Girl Script summer of code ",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
+    title: "Hack BMU",
+    subtitle: "Participant",
+    image: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/61c1cfa78103a_hackbmu_logo_3.jpg?d=110x110",
+    desp: " As the vaccination phase of COVID-19 has started. So, we need a central record of citizens who have been vaccinated. It may be required to verify if a person is vaccinated or not, for example when a person is travelling to other state or country, or an employer may need to verify if all his employees are vaccinated.  So, we  created a blockchain based record system which can be used to verify the vaccination status of a person.",
   },
   
 ];
@@ -127,7 +127,7 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
+          <a href="https://hackbmu.tech/" class="blog-slider__button">Read More</a>   
         </div>
       </div>
       `)
