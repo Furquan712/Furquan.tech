@@ -20,7 +20,7 @@ const exp = [
   },
   {
     title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "https://media.glassdoor.com/sqll/540401/jamia-millia-islamia-squarelogo-1463577650514.png",
     place: "Jamia Millia Islamia",
     time: "(Mar 2022 - present)",
     desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
@@ -64,27 +64,14 @@ const volunteershipcards = [
   {
     title: "GirlScript Summer Of Code 2020",
     cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+    description:" "
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+    title: "Bitcoin Summer of Code ",
+    cardImage: " https://softr-prod.imgix.net/applications/5abf9a13-d06f-44d6-b50c-187328a34a81/assets/c0e483e6-b0e0-4557-9b15-7188a3709d46.svg",
+    description:" "
   },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+ 
 ];
 
 const showCards = () => {
