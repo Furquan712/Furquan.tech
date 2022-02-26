@@ -6,16 +6,16 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    cardImage: "https://www.mdeez.in/img/logo.ico",
+    place: "Mdeez E-Commerce ",
+    time: "(Dec 2021 - present)",
+    desp: "<li> Worked on multiple project </li> <li>Made changes in the current progressive web app of MSA Quran Acadmey  to react to different actions performed  </li> <li>Created a Web App called “Valuation-Drive” which provide daily stock market updates</li><li>worked on Frontend part of product based company RC infinty with multiple Js Libraries</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
+    title: "Frontend Developer",
+    cardImage: "formura.png",
+    place: "Formura Adgitm",
+    time: "(June - July, 2021)",
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
   {
