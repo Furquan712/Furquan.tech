@@ -18,6 +18,8 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Resume</a></li>
+
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
@@ -208,53 +210,11 @@ $(window).on("load", function () {
 
 /* Semester Recap Page Content */
 // Store Semester Recap data
-const sem_temp = [
-  {
-    event_name: "Chemistry Lab",
-    event_type: "Mentorship",
-    event_image: "chemistrymentee.jpg",
-  },
-  {
-    event_name: "User Experience",
-    event_type: "Summer Research",
-    event_image: "uxresearch.jpg",
-  },
-  {
-    event_name: "UX Team",
-    event_type: "Happy Hours",
-    event_image: "teamcamping.jpg",
-  },
-  {
-    event_name: "Orientation",
-    event_type: "Keynote",
-    event_image: "groomingspeech.jpg",
-  },
-  {
-    event_name: "Graduation",
-    event_type: "Ceremony",
-    event_image: "graduation.jpg",
-  },
-];
 
 // Select content div
 const sem_temp_slides = document.querySelector(".sem_temp_slides");
 
 // Function to add the memory pictures
-const fillData = () => {
-  let output = "";
-  sem_temp.forEach(
-    ({ event_name, event_type, event_image }) =>
-      (output += `
-            <div class="sem_temp_slide" style="background-image: url(assets/images/sem/sem1/${event_image});">
-                <div class="sem_temp_slideBg" style="background-image: url(assets/images/sem/sem1/${event_image});"></div>
-                <div class="sem_temp_slideContent">
-                    <span>${event_name}</span>
-                    <span>${event_type}</span>
-                </div>
-            </div>
-    `)
-  );
-  sem_temp_slides.innerHTML = output;
-};
+ 
 
 fillData();
